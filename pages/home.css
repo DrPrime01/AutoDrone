@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* hero background image */
+.bgimage {
+  height: 100vh;
+  background: url("/Autodrone-vectors/Hero\ Image\ 1.svg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* text css above hero image*/
+.hero_title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 50px;
+  color: white;
+}
+.hero_desc {
+  font-size: 1.15rem;
+  line-height: 27px;
+  font-weight: 300;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: 648px;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #969696;
+}
+
+.get-now {
+  border-radius: 30px;
+  padding: 10px 25px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.get-now:hover {
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+}
+.nav-link:hover {
+  color: #1abc9c;
+}
+
+#ultra-light {
+  height: 560px;
+  background: url("/Autodrone-vectors/ultra_light\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+
+#best-resolution {
+  height: 560px;
+  background: url("/Autodrone-vectors/best_resolution\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px;
+}
+
+#ultra-header {
+  color: rgba(34, 34, 34, 1);
+}
+
+#best-res-header {
+  color: #ffffff;
+}
+
+#ultra-text {
+  color: rgba(34, 34, 34, 0.5);
+}
+
+#best-res-text {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.page-2-header {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 62px;
+}
+
+.page-2-text {
+  text-align: center;
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+#wdl-container {
+  background-color: #f7f8fa;
+}
+
+#wdl-header {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+.wdl-feat-header {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+#wdl-text-pa {
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+}
+
+#why-drone-light-container {
+  max-width: 642px;
+  width: 100%;
+}
+
+.feat-desc {
+  height: 120px;
+  width: 130px;
+}
+
+.card {
+  max-width: 20rem;
+  width: 100%;
+}
+
+#new-product-texts {
+  max-width: 420px;
+  width: 100%;
+}
+
+.card-img-top {
+  border-radius: 5px;
+}
+
+.test-profile-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.test-name {
+  font-weight: 600;
+  color: rgba(34, 34, 34, 1);
+  line-height: 0.6em;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+
+.test-job {
+  color: rgba(129, 129, 129, 1);
+  font-weight: 300;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.card-text {
+  font-weight: 300;
+  color: rgba(34, 34, 34, 1);
+  font-size: 1.1rem;
+}
+
+#testimonial-texts {
+  width: 250px;
+  height: 88px;
+}
+
+.footer-list {
+  list-style: none;
+  line-height: 36px;
+  margin-left: -2em;
+}
+
+.footer-list-header {
+  font-size: 1.8rem;
+}
+
+.footer-links,
+.footer-description {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.footer-logo {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.footer-links:hover {
+  color: #1abc9c;
+}
+
+@media screen and (max-width: 576px) {
+  #wdl-header {
+    font-size: 2rem;
+  }
+  #wdl-text-pa {
+    text-align: center;
+  }
+
+  .np-card {
+    margin: auto 0 !important;
+    max-width: 100% !important;
+    border: none !important;
+  }
+
+  .np-row {
+    padding: 0 !important;
+  }
+
+  .card-body {
+    padding: auto 0 !important;
+  }
+
+  .card-img-top {
+    border-radius: 0;
+  }
+
+  .navbar-toggler {
+    border: none !important;
+  }
+
+  .navbar-collapse {
+    height: 100vh !important;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    position: relative;
+    top: 13vh;
+  }
+
+  .navbar-nav .nav-item {
+    padding: 25px;
+    font-size: 2.1rem;
+  }
+}
