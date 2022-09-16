@@ -179,7 +179,7 @@ body {
 }
 
 #testimonial-texts {
-  width: 250px;
+  width: 350px;
   height: 88px;
 }
 
@@ -253,5 +253,9 @@ body {
   .navbar-nav .nav-item {
     padding: 25px;
     font-size: 2.1rem;
+  }
+
+  #testimonial-texts {
+    width: 250px;
   }
 }
