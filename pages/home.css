@@ -152,6 +152,11 @@ body {
   border-radius: 50%;
 }
 
+.navbar,
+.footer {
+  background-color: #000;
+}
+
 .test-name {
   font-weight: 600;
   color: rgba(34, 34, 34, 1);
