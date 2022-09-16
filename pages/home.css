@@ -258,4 +258,9 @@ body {
   #testimonial-texts {
     width: 250px;
   }
+
+  #footer-container {
+    padding: 1.5rem !important;
+    margin: auto 0 !important;
+  }
 }
