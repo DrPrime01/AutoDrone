@@ -245,9 +245,8 @@ body {
   }
 
   .navbar-nav {
-    align-items: center;
-    position: relative;
-    top: 13vh;
+    text-align: center;
+    margin: 34.5% auto;
   }
 
   .navbar-nav .nav-item {
